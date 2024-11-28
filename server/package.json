@@ -1,0 +1,21 @@
+{
+        "name": "server",
+        "type": "module",
+        "main": "server.ts",
+        "scripts": {
+                "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm server.ts"
+        },
+        "dependencies": {
+                "@types/js-md5": "^0.7.2",
+                "@types/js-sha1": "^0.6.2",
+                "js-md5": "^0.8.3",
+                "js-sha1": "^0.7.0",
+                "server": "file:",
+                "socket.io": "^4.7.5"
+        },
+        "devDependencies": {
+                "@types/node": "^22.8.1",
+                "ts-node": "^10.9.2",
+                "typescript": "^5.6.3"
+        }
+}

@@ -1,0 +1,17 @@
+{
+        "compilerOptions": {
+                "baseUrl": ".",
+                "target": "ES2021",
+                "module": "ESNext",
+                "esModuleInterop": true,
+                "noEmit": true,
+                "allowImportingTsExtensions": true,
+                "forceConsistentCasingInFileNames": true,
+                "strict": true,
+                "allowJs": true,
+                "skipLibCheck": true,
+                "moduleResolution": "node",
+                "moduleDetection": "force"
+        },
+        "exclude": ["node_modules"]
+}

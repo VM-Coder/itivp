@@ -1,0 +1,15 @@
+@font-face {
+        font-family: "Caveat";
+        src: url("../../assets/fonts/Caveat-VariableFont_wght.ttf");
+}
+
+* {
+        font-family: Caveat;
+}
+
+#root {
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        text-align: center;
+}
