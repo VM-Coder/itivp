@@ -2,8 +2,7 @@ import { sessionStore } from "../stores/session_store.ts";
 import { io } from "../../io.ts";
 import { roomStore } from "../stores/room_store.ts";
 import { createHash } from "crypto";
-
-const words = ["Рыба", "Собака", "Дверь", "Кошка", "Стол", "Земля", "Ноутбук", "Море"];
+import { words } from "../words.ts";
 
 export const start = (name: string) => {
         setTimeout(async () => {
@@ -23,7 +22,7 @@ export const start = (name: string) => {
                                 }, 1000),
                         );
 
-                        let time = 10000;
+                        let time = 60000;
 
                         roomStore.rooms[name].round = [];
                         roomStore.rooms[name].painter = roomStore.rooms[name].players[i];
